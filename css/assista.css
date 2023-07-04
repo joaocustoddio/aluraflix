@@ -1,0 +1,23 @@
+.section__imagens {
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    gap: 60px;
+}
+
+.section__reverse {
+    flex-direction: row-reverse;
+}
+
+.section__texto {
+    color: #fff;
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.botao__menor{
+    width: 150px !important;
+    padding: 10px 40px !important;
+}

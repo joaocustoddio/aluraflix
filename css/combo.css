@@ -1,0 +1,32 @@
+.titulo__combo{
+    color: #fff;
+}
+.background__combo{
+    background-image: url("../img/Background.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+}
+
+.oferta__combo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    /* margin: 100px 50px; */
+    padding: 40px;
+    gap: 1em;
+}
+
+.botao2{
+    background-color: unset !important;
+    border: solid white 1px;
+    margin-top: 0 !important;
+}
+
+.subtexto__combo{
+    font-family: var(--fonte-principal);
+    color: #C0c0c0c0;
+    font-size: 12px;
+}

@@ -1,0 +1,20 @@
+.container__dispositivos{
+    margin-top: 100px;
+}
+
+.titulo__dispositivos{
+    color: white;
+    text-align: center;
+}
+
+.bloco__dispositivos{
+    display: flex;
+    justify-content: center;
+}
+
+.dispositivos{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
