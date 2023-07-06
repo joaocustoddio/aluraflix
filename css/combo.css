@@ -1,11 +1,7 @@
-.titulo__combo{
-    color: #fff;
-}
 .background__combo{
     background-image: url("../img/Background.png");
     background-position: right;
     background-repeat: no-repeat;
-    /* height: 500px; */
 }
 
 .oferta__combo{
@@ -14,19 +10,27 @@
     flex-direction: column;
     align-items: center;
     width: 400px;
-    /* margin: 100px 50px; */
     padding: 40px;
     gap: 1em;
 }
 
 .botao2{
     background-color: unset !important;
-    border: solid white 1px;
+    border: solid var(--cor-texto) 1px;
     margin-top: 0 !important;
 }
 
 .subtexto__combo{
     font-family: var(--fonte-principal);
-    color: #C0c0c0c0;
+    color: var(--cor-texto-secundario);
     font-size: 12px;
+}
+
+@media (max-width: 719px) {
+    .oferta__combo{
+        padding: unset;
+        background-color: rgba(0,0,0,0.5);
+        width: auto;
+    } 
+    
 }

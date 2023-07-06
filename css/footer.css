@@ -1,0 +1,38 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.rodape__imagem{
+    width: 100px;
+
+}
+
+.rodape__lista{
+    font-family: var(--fonte-principal);
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.rodape p{
+    color: var( --cor-texto-secundario);
+    text-align: center;
+}
+
+@media (max-width:719px) {
+    .rodape__lista{
+        flex-direction: column;
+        text-align: center;
+        margin: unset !important;
+        padding: unset !important;
+        margin-top: 1rem !important;
+    }
+
+    .rodape p{
+        margin: 1rem 1.5rem;
+    }
+}

@@ -10,7 +10,6 @@
 }
 
 .section__texto {
-    color: #fff;
     font-family: var(--fonte-principal);
     display: flex;
     flex-direction: column;
@@ -20,4 +19,23 @@
 .botao__menor{
     width: 150px !important;
     padding: 10px 40px !important;
+}
+
+@media (max-width: 719px) {
+    .section__imagens{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .section_image{
+        width: 100%;
+    }
+
+    .section__texto{
+        width: unset;
+    }
+
+    .section__texto h1{
+        text-align: center;
+    }
 }

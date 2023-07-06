@@ -3,7 +3,6 @@
 }
 
 .titulo__dispositivos{
-    color: white;
     text-align: center;
 }
 
@@ -13,8 +12,14 @@
 }
 
 .dispositivos{
-    color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media (max-width: 719px ) {
+    .bloco__dispositivos{
+        flex-direction: column;
+    }
+    
 }
